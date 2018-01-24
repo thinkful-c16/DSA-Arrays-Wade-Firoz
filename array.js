@@ -18,7 +18,7 @@ class Array {
 
     memory.set(this.ptr + this.length, value);
     this.length++;
-    console.log(this.length);
+    //console.log(this.length);
   }
 
   _resize(size) {
